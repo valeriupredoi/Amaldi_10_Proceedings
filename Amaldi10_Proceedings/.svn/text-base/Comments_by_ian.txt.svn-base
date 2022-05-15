@@ -1,0 +1,55 @@
+Introduction
+
+Sentence "The fact that both …. detections of gravitational waves", doesn't really make sense. I think the sentence should begin with an "If", as we haven't made any joint observations and I think you need something like …. an observation of both will increase confidence and allow for better science output"
+
+"the IPN is an all-time, isotropic, all-sky GRB monitor" - isn't isotropic redundant here?-
+
+"a join GW-GRB search", don't you mean a joint GW-EM GRB search? (EM not used up to this point)
+
+"a joint GW-GRB search an overview and then provide" …. the words "an overview" don't make sense in this sentence. EIther remove them or add some punctuation :-) (If you remove them change "and then provide" to "and provide"
+
+"We discuss the necessary changes to the analysis". What analysis? You haven't mentioned it at this point. Think you need to say, necessary changes to the analysis being used to analyse the S6-VSR2 Swify+Fermi GRB (reference paper in progress + the coherent methods paper).
+
+In S6 we are doing an analysis on Fermi GRBs, which are not well localised in sky position. It seems unfair to only mention Swift at this point, as some of the sky point issues were solved for Fermi and adapted to IPN.
+
+Search for GW associated with short GRB
+
+??? I think its fine ??? You talk about short GRBs in the introduction and abstract, but then introduce the term in section 2. Maybe its okay, but it feels a bit weird to have this description after you already assume the reader knows what a short GRB is.
+
+What is meant by a "background subtracted count"?
+
+Probably not right to reference my and Steve's paper under "GWs are believed to emit strongly in the sensitive region of detectors".
+
+The sample to be analysed
+
+Unless you generated it yourself Figure 1 needs a reference. Same for Figure 2.
+
+"The principle on which the IPN is base" … The principle in which the IPN triangulation method is based??
+
+"The search will be using a method that coherently …." Needs a reference, also mention that that method was used in S6 but *not* in S5 and is better than S5 method.
+
+We actually require data from more than one detector because the background from only one detector is too large and varied to be confident of a detection. Maybe just say, "We require that there is data from at least two detectors". Not "We therefore require".
+
+??? 2190s, I think its fine like this ???Why 40 mins?
+
+??? a better name for onsource ???What is meant by "foreground"?
+
+??? very true, but I cant find any ref ???"Searching over more than 30 sky points …. have been performed would have been lost". The number is a little arbitrary, as is "significant computational cost", maybe try to reword this. Certainly a search over 100 sky points with 2 detectors would be feasible (though our pylal code would need to be improved a bit!) Also a lot of the sensitivity improvement over the all sky search comes from searching a reduced amount of time (quite possible most of the improvement). I think if you want to include this sentence you must provide a reference!
+
+On the H1H2 problem.
+
+Be careful of saying H1H2 data was not analysed, it was, but it was difficult to interpret the results! Look at what statement is made about this in the S5 papers.
+
+Because H1H2 is also coaligned, they are only sensitive to one polarisation and we can do the magic that we are doing. The H1H2 coherent stream has been used in other searches (burst/CW/stochastic) but this is a *first* for CBC and is definitely a "novel DA challenge", the focus of this paper according to the abstract. This detail seems conspicuously absent from the paper!
+
+I'm not sure I like saying that 6 bursts will not be analysed. Are the bursters going to analyse them? Are they really that much of a problem? Certainly we could do a detection/no-detection search on them, getting exclusion distances would be harder! Maybe soften this sentence a bit and we can look at this issue in coming months.
+
+THe proposed search
+
+"The pipeline uses a number of signal consistency tests" … needs references, certainly my paper, maybe a null stream reference, Bruce's chi squared paper and Chad's thesis. References are in my paper.
+
+"The two most important changes….", be fair a lot of this was adapted from the S6 search. You seem to not want to mention that search in this paper. As you are using methods adapted from that search you have to mention it. The only thing you can't say is that it saw no signals. You can discuss the method that is being used (use present tense, the S6 search is still ongoing as far as non-LIGO folk are concerned)
+
+??? no, I think it be good just as this???Maybe a plot illustrating the search points and simulation points would help to illustrate this section?
+
+
